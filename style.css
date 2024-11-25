@@ -1,0 +1,80 @@
+/* ================ Google Fonts ================ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* ================ Define CSS Variables ================ */
+:root {
+  --header-height: 3.5rem;
+
+  --white-color: hsl(0, 0%, 100%);
+  --orange-color: hsl(27, 100%, 57%);
+  --blue-color: hsl(220, 100%, 3%);
+
+  --normal-font-size: 0.95rem;
+
+  --font-regular: 500;
+  --font-medium: 600;
+
+  --z-small: 10;
+  --z-large: 100;
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --normal-font-size: 1.03rem;
+  }
+}
+
+
+/* ================ Base Styling ================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-size: var(--normal-font-size);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* ================ Re-usable CSS Classes ================ */
+.container {
+  max-width: 1200px;
+  margin-inline: 1.5rem;
+}
+
+
+/* ================ Header & Nav ================ */
+
+
+
+/* Navigation Bar for Mobile devices */
+@media screen and (max-width: 1024px) {
+  
+}
+
+
+/* Show Menu */
+
+
+
+/* ================ Break-points ================ */
+@media screen and (min-width: 1024px) {
+  
+}
